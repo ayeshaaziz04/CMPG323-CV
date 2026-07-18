@@ -3,9 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ayesha - Portfolio & CV</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello this is Ayesha's page.</h1>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-content">
+            <div class="logo">Ayesha.</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="container">
+        <div class="hero-content fade-in">
+            <span class="greeting">Hi there, I'm</span>
+            <h1 class="hero-title">Ayesha</h1>
+            <h2 class="hero-subtitle">Creative Developer & Designer</h2>
+            <p style="margin-bottom: 2rem; color: var(--text-muted); max-width: 500px;">
+                I build interactive, modern, and high-performance web applications with a focus on stunning user experiences.
+            </p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2 class="fade-in">About Me</h2>
+        <div class="about-grid">
+            <div class="about-text glass-card fade-in">
+                <p>
+                    Hello! I'm Ayesha, a passionate developer who loves bridging the gap between design and engineering. 
+                    My journey in tech started with a curiosity for how things work on the internet, and it has evolved into a career 
+                    building digital experiences that people love to use.
+                </p>
+                <p>
+                    I specialize in building applications using modern web technologies. When I'm not at my computer, 
+                    I enjoy exploring new design trends and continuously learning to improve my craft.
+                </p>
+            </div>
+            <div class="glass-card fade-in" style="display: flex; justify-content: center; align-items: center; min-height: 300px;">
+                <!-- Placeholder for profile picture -->
+                <div style="width: 200px; height: 200px; border-radius: 50%; background: linear-gradient(135deg, var(--accent-1), var(--accent-2)); display: flex; justify-content: center; align-items: center; font-size: 4rem; color: white; font-weight: bold;">
+                    A
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="container">
+        <h2 class="fade-in">Experience & Education</h2>
+        <div class="timeline">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item fade-in">
+                <div class="glass-card">
+                    <div class="timeline-date">2023 - Present</div>
+                    <h3 class="timeline-title">Frontend Developer</h3>
+                    <div class="timeline-subtitle">Tech Solutions Inc.</div>
+                    <p class="about-text">Developed and maintained user-facing features using modern JavaScript frameworks. Collaborated with designers to implement pixel-perfect UIs.</p>
+                </div>
+            </div>
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item fade-in">
+                <div class="glass-card">
+                    <div class="timeline-date">2021 - 2023</div>
+                    <h3 class="timeline-title">Bachelor of Science in Computer Science</h3>
+                    <div class="timeline-subtitle">University Name</div>
+                    <p class="about-text">Studied software engineering, data structures, and web development. Graduated with honors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container">
+        <h2 class="fade-in">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item glass-card fade-in">
+                <i class="fa-brands fa-html5 skill-icon"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill-item glass-card fade-in">
+                <i class="fa-brands fa-css3-alt skill-icon"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill-item glass-card fade-in">
+                <i class="fa-brands fa-js skill-icon"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-item glass-card fade-in">
+                <i class="fa-brands fa-react skill-icon"></i>
+                <h3>React</h3>
+            </div>
+            <div class="skill-item glass-card fade-in">
+                <i class="fa-brands fa-git-alt skill-icon"></i>
+                <h3>Git</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container" style="min-height: 60vh;">
+        <h2 class="fade-in">Let's Connect</h2>
+        <div class="glass-card fade-in" style="max-width: 600px; margin: 0 auto; text-align: center;">
+            <p class="about-text" style="margin-bottom: 2rem;">
+                I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            </p>
+            <a href="mailto:hello@example.com" class="btn">Say Hello</a>
+            <div class="contact-links">
+                <a href="#" class="contact-link"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="contact-link"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="contact-link"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer style="text-align: center; padding: 2rem; color: var(--text-muted); border-top: 1px solid var(--glass-border);">
+        <p>&copy; 2026 Ayesha. Designed & Built with ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
