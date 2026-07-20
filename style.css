@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
 
 :root {
-    --bg-color: #0f172a;
-    --text-main: #f8fafc;
-    --text-muted: #94a3b8;
-    --accent-1: #8b5cf6;
-    --accent-2: #3b82f6;
-    --glass-bg: rgba(255, 255, 255, 0.03);
-    --glass-border: rgba(255, 255, 255, 0.05);
-    --glass-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    --bg-color: #fff0f5; /* Lavender blush for a soft, girly background */
+    --text-main: #4a4a4a; /* Dark grey for readability */
+    --text-muted: #8c8c8c;
+    --accent-1: #ff69b4; /* Hot Pink */
+    --accent-2: #da70d6; /* Orchid / Purple-pink */
+    --glass-bg: rgba(255, 255, 255, 0.6);
+    --glass-border: rgba(255, 105, 180, 0.2);
+    --glass-shadow: 0 8px 32px rgba(255, 105, 180, 0.15);
     --transition: all 0.3s ease;
 }
 
@@ -20,7 +20,7 @@
 
 html {
     scroll-behavior: smooth;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -76,7 +76,7 @@ nav {
     top: 0;
     width: 100%;
     padding: 1.5rem 0;
-    background: rgba(15, 23, 42, 0.8);
+    background: rgba(255, 240, 245, 0.8);
     backdrop-filter: blur(10px);
     z-index: 1000;
     border-bottom: 1px solid var(--glass-border);
