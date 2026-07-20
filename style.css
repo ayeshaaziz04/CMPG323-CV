@@ -28,7 +28,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Background Grid */
+
 .bg-grid {
     position: fixed;
     top: 0;
@@ -43,7 +43,7 @@ body {
     perspective: 1000px;
     transform-origin: top;
     animation: gridScroll 10s linear infinite;
-    background-color: #fff9fc; /* Very light pink background for extra brightness */
+    background-color: #fff9fc;
 }
 
 @keyframes gridScroll {
@@ -51,7 +51,7 @@ body {
     100% { transform: translateY(40px); }
 }
 
-/* Typography */
+
 h1, h2, h3, .logo, .greeting {
     font-family: 'Righteous', cursive;
     text-transform: uppercase;
@@ -75,7 +75,7 @@ a:hover {
     color: var(--neon-pink);
 }
 
-/* Layout */
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -90,7 +90,7 @@ section {
     justify-content: center;
 }
 
-/* Navbar */
+
 nav {
     position: fixed;
     top: 0;
@@ -132,7 +132,7 @@ nav {
     background: rgba(0, 191, 255, 0.1);
 }
 
-/* Hero Section */
+
 .hero-content {
     max-width: 800px;
     margin-top: 9rem;
@@ -180,7 +180,7 @@ nav {
     border-color: var(--text-main);
 }
 
-/* Marquee */
+
 .marquee-container {
     width: 100%;
     background: var(--neon-cyan);
@@ -215,7 +215,7 @@ nav {
     100% { transform: translateX(-50%); }
 }
 
-/* Y2K Cards */
+
 .y2k-card {
     background: var(--bg-main);
     border: 3px solid var(--neon-pink);
@@ -231,7 +231,7 @@ nav {
     border-color: var(--neon-cyan);
 }
 
-/* About Grid */
+
 .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -239,7 +239,7 @@ nav {
     align-items: center;
 }
 
-/* Timeline */
+
 .timeline {
     display: flex;
     flex-direction: column;
@@ -267,7 +267,7 @@ nav {
     font-weight: 600;
 }
 
-/* Contact Icons */
+
 .contact-link {
     font-size: 2.5rem;
     color: var(--neon-cyan);
@@ -277,7 +277,7 @@ nav {
     transform: scale(1.2) rotate(10deg);
 }
 
-/* Animations */
+
 .fade-in {
     opacity: 0;
     transform: translateY(30px);
@@ -296,7 +296,7 @@ nav {
     cursor: pointer;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
@@ -324,7 +324,7 @@ nav {
     .about-grid { grid-template-columns: 1fr; }
     h2.section-title { font-size: 2.2rem; }
     
-    /* Extra Mobile Optimizations */
+
     .container { padding: 0 1rem; }
     section { padding: 4rem 0; }
     .marquee-content { font-size: 1.2rem; }
