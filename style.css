@@ -23,7 +23,8 @@ html {
 body {
     background-color: var(--bg-main);
     color: var(--text-main);
-    line-height: 1.6;
+    font-size: 1.1rem;
+    line-height: 1.8;
     overflow-x: hidden;
 }
 
@@ -179,33 +180,34 @@ nav {
     border-color: var(--text-main);
 }
 
-/* Marquee */
-.marquee-container {
-    width: 100%;
+/* Skills Grid */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill-tag {
+    background: var(--bg-main);
+    color: var(--neon-cyan);
+    border: 2px solid var(--neon-pink);
+    padding: 0.8rem 1.5rem;
+    font-family: 'Righteous', cursive;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0px var(--neon-cyan);
+    transition: var(--transition);
+}
+
+.skill-tag:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 7px 7px 0px var(--neon-pink);
     background: var(--neon-cyan);
     color: var(--bg-main);
-    padding: 1rem 0;
-    overflow: hidden;
-    position: relative;
-    border-top: 4px solid var(--text-main);
-    border-bottom: 4px solid var(--text-main);
-    transform: rotate(-2deg) scale(1.05);
-    margin: 4rem 0;
-    z-index: 10;
-}
-
-.marquee-content {
-    display: inline-block;
-    white-space: nowrap;
-    animation: marquee 15s linear infinite;
-    font-family: 'Righteous', cursive;
-    font-size: 1.5rem;
-    letter-spacing: 2px;
-}
-
-@keyframes marquee {
-    0% { transform: translateX(0%); }
-    100% { transform: translateX(-50%); }
+    border-color: var(--text-main);
 }
 
 /* Y2K Cards */
