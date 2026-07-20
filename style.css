@@ -147,11 +147,11 @@ nav {
 }
 
 .hero-title {
-    font-size: 6rem;
+    font-size: 4rem;
     color: var(--bg-main);
     text-shadow: 6px 6px 0px var(--neon-pink), -2px -2px 0px var(--neon-cyan);
     margin-bottom: 0.5rem;
-    line-height: 1;
+    line-height: 1.1;
 }
 
 .hero-subtitle {
@@ -313,8 +313,15 @@ nav {
     .nav-links li {
         margin: 1rem 0;
     }
-    .hero-title { font-size: 3.5rem; }
-    .hero-subtitle { font-size: 1.5rem; }
+    .hero-title { font-size: 2.8rem; }
+    .hero-subtitle { font-size: 1.2rem; }
     .about-grid { grid-template-columns: 1fr; }
-    h2.section-title { font-size: 2.5rem; }
+    h2.section-title { font-size: 2.2rem; }
+    
+    /* Extra Mobile Optimizations */
+    .container { padding: 0 1rem; }
+    section { padding: 4rem 0; }
+    .marquee-content { font-size: 1.2rem; }
+    .y2k-btn { font-size: 1rem; padding: 0.8rem 1.2rem; }
+    .timeline-title { font-size: 1.5rem; }
 }
