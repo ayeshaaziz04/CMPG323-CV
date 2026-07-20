@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayesha - Portfolio & CV</title>
+    <title>Ayesha - Tech Girly Portfolio</title>
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Background Grid -->
+    <div class="bg-grid"></div>
+
     <!-- Navigation -->
     <nav>
         <div class="container nav-content">
-            <div class="logo">Ayesha.</div>
+            <div class="logo">Ayesha<span style="color: var(--neon-cyan)">.exe</span></div>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -28,101 +31,76 @@
     <!-- Hero Section -->
     <section id="hero" class="container">
         <div class="hero-content fade-in">
-            <span class="greeting">Hi there, I'm</span>
+            <span class="greeting">&gt; INITIALIZING...</span>
             <h1 class="hero-title">Ayesha</h1>
-            <h2 class="hero-subtitle">Creative Developer & Designer</h2>
-            <p style="margin-bottom: 2rem; color: var(--text-muted); max-width: 500px;">
-                I build interactive, modern, and high-performance web applications with a focus on stunning user experiences.
+            <h2 class="hero-subtitle">Creative Developer</h2>
+            <p style="margin-bottom: 2rem; color: var(--text-main); max-width: 500px; font-weight: 600;">
+                Building interactive, modern, and high-performance web experiences. 
+                Loading neon dreams into reality.
             </p>
-            <a href="#contact" class="btn">Get In Touch</a>
+            <a href="#contact" class="y2k-btn">EXECUTE_HELLO()</a>
         </div>
     </section>
+
+    <!-- Marquee -->
+    <div class="marquee-container">
+        <div class="marquee-content">
+            <span>HTML5 ✨ CSS3 ✨ JAVASCRIPT ✨ REACT ✨ GIT ✨ UI/UX ✨ WEB ANIMATION ✨ HTML5 ✨ CSS3 ✨ JAVASCRIPT ✨ REACT ✨ GIT ✨ UI/UX ✨ WEB ANIMATION ✨</span>
+        </div>
+    </div>
 
     <!-- About Section -->
     <section id="about" class="container">
-        <h2 class="fade-in">About Me</h2>
+        <h2 class="section-title fade-in">System Specs</h2>
         <div class="about-grid">
-            <div class="about-text glass-card fade-in">
-                <p>
-                    Hello! I'm Ayesha, a passionate developer who loves bridging the gap between design and engineering. 
-                    My journey in tech started with a curiosity for how things work on the internet, and it has evolved into a career 
-                    building digital experiences that people love to use.
+            <div class="y2k-card fade-in">
+                <p style="margin-bottom: 1rem;">
+                    Hello world! I'm Ayesha, a passionate developer who loves bridging the gap between design and engineering. 
                 </p>
                 <p>
-                    I specialize in building applications using modern web technologies. When I'm not at my computer, 
-                    I enjoy exploring new design trends and continuously learning to improve my craft.
+                    I specialize in building applications with a bold, unique aesthetic. When I'm not coding, you can find me exploring retro tech and Y2K cyber-pop design trends!
                 </p>
             </div>
-            <div class="glass-card fade-in" style="display: flex; justify-content: center; align-items: center; min-height: 300px;">
-                <!-- Placeholder for profile picture -->
-                <div style="width: 200px; height: 200px; border-radius: 50%; background: linear-gradient(135deg, var(--accent-1), var(--accent-2)); display: flex; justify-content: center; align-items: center; font-size: 4rem; color: white; font-weight: bold;">
-                    A
-                </div>
+            <div class="y2k-card fade-in" style="display: flex; justify-content: center; align-items: center; min-height: 300px; background: var(--neon-pink); border-radius: 50%;">
+                <div style="font-size: 5rem; color: var(--bg-dark);">A</div>
             </div>
         </div>
     </section>
 
-    <!-- Experience & Education Section -->
+    <!-- Experience Section -->
     <section id="experience" class="container">
-        <h2 class="fade-in">Experience & Education</h2>
+        <h2 class="section-title fade-in">Runtime Logs</h2>
         <div class="timeline">
             <!-- Timeline Item 1 -->
             <div class="timeline-item fade-in">
-                <div class="glass-card">
-                    <div class="timeline-date">2023 - Present</div>
+                <div class="y2k-card">
+                    <div class="timeline-date">[2023 - PRESENT]</div>
                     <h3 class="timeline-title">Frontend Developer</h3>
-                    <div class="timeline-subtitle">Tech Solutions Inc.</div>
-                    <p class="about-text">Developed and maintained user-facing features using modern JavaScript frameworks. Collaborated with designers to implement pixel-perfect UIs.</p>
+                    <div class="timeline-subtitle">@ Tech Solutions Inc.</div>
+                    <p>Developing user-facing features using modern JavaScript frameworks. Making the web weird and wonderful.</p>
                 </div>
             </div>
             <!-- Timeline Item 2 -->
             <div class="timeline-item fade-in">
-                <div class="glass-card">
-                    <div class="timeline-date">2021 - 2023</div>
-                    <h3 class="timeline-title">Bachelor of Science in Computer Science</h3>
-                    <div class="timeline-subtitle">University Name</div>
-                    <p class="about-text">Studied software engineering, data structures, and web development. Graduated with honors.</p>
+                <div class="y2k-card">
+                    <div class="timeline-date">[2021 - 2023]</div>
+                    <h3 class="timeline-title">BSc Computer Science</h3>
+                    <div class="timeline-subtitle">@ University Name</div>
+                    <p>Studied software engineering, algorithms, and web development. Graduated with honors.</p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="container">
-        <h2 class="fade-in">My Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-item glass-card fade-in">
-                <i class="fa-brands fa-html5 skill-icon"></i>
-                <h3>HTML5</h3>
-            </div>
-            <div class="skill-item glass-card fade-in">
-                <i class="fa-brands fa-css3-alt skill-icon"></i>
-                <h3>CSS3</h3>
-            </div>
-            <div class="skill-item glass-card fade-in">
-                <i class="fa-brands fa-js skill-icon"></i>
-                <h3>JavaScript</h3>
-            </div>
-            <div class="skill-item glass-card fade-in">
-                <i class="fa-brands fa-react skill-icon"></i>
-                <h3>React</h3>
-            </div>
-            <div class="skill-item glass-card fade-in">
-                <i class="fa-brands fa-git-alt skill-icon"></i>
-                <h3>Git</h3>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container" style="min-height: 60vh;">
-        <h2 class="fade-in">Let's Connect</h2>
-        <div class="glass-card fade-in" style="max-width: 600px; margin: 0 auto; text-align: center;">
-            <p class="about-text" style="margin-bottom: 2rem;">
-                I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+    <section id="contact" class="container" style="min-height: 50vh;">
+        <h2 class="section-title fade-in">Ping Me</h2>
+        <div class="y2k-card fade-in" style="max-width: 600px; margin: 0 auto; text-align: center;">
+            <p style="margin-bottom: 2rem;">
+                Looking for new adventures in cyberspace. Hit me up if you want to collaborate!
             </p>
-            <a href="mailto:hello@example.com" class="btn">Say Hello</a>
-            <div class="contact-links">
+            <a href="mailto:hello@example.com" class="y2k-btn">SEND_MESSAGE</a>
+            <div class="contact-links" style="margin-top: 2rem; display: flex; justify-content: center; gap: 2rem;">
                 <a href="#" class="contact-link"><i class="fa-brands fa-github"></i></a>
                 <a href="#" class="contact-link"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="#" class="contact-link"><i class="fa-brands fa-twitter"></i></a>
@@ -130,8 +108,8 @@
         </div>
     </section>
 
-    <footer style="text-align: center; padding: 2rem; color: var(--text-muted); border-top: 1px solid var(--glass-border);">
-        <p>&copy; 2026 Ayesha. Designed & Built with ❤️</p>
+    <footer style="text-align: center; padding: 2rem; color: var(--neon-cyan); border-top: 4px solid var(--neon-pink); background: var(--bg-dark); font-family: 'Righteous', sans-serif;">
+        <p>&copy; 2026 Ayesha // SYSTEM OFFLINE</p>
     </footer>
 
     <script src="script.js"></script>
